@@ -5,7 +5,6 @@ from system.storage import ImageStorage
 class File(models.Model):
   
     file_name=models.CharField(max_length=20)
-    file_type=models.CharField(max_length=20)
     file_size=models.IntegerField()
     file_bedown=models.IntegerField()
     create_time=models.DateTimeField(auto_now_add=True)

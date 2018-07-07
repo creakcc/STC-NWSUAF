@@ -8,13 +8,11 @@ from share.models import *
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from django.contrib import messages
-
 from django.core.mail import send_mail
 from STC_NWSUAF.tools import login_required
 
 from dwebsocket import require_websocket
 from bs4 import BeautifulSoup
-
 import json
 
 
